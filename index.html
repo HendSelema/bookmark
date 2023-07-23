@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="vh-100">
+        <div class="container">
+            <h1 class="  pt-4 m-auto">Bookmarker</h1>
+            <div class="section-text my-5 py-3  ">
+            
+                <h2 class="m-auto pt-2 pb-4"><i class="fa-solid fa-bookmark fs-4 p-2"></i>Bookmark your favorite sites<i class="fa-solid fa-bookmark fs-4 p-2"></i></h2> 
+                
+                <label for="name" class="fw-bolder"><i class="fa-solid fa-book-bookmark p-2"></i>Site Name</label>   
+                <input type="text" id="name" class="form-control mb-3" placeholder="Bookmark Name">
+            
+                <label for="url" class="fw-bolder" ><i class="fa-solid fa-link p-2"></i>Site URL</label>   
+                <input type="text" id="url" class="form-control " placeholder="Website URL">
+
+                <button class=" sub btn  text-light  mt-4 d-block m-auto" id="subbtn" >Submit</button>
+            </div>
+            <table class="table text-center ">
+              <thead>
+                <tr>
+                  <th >Index</th>
+                  <th >Website Name	</th>
+                  <th >Visit</th>
+                  <th >Delete</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody">
+                
+                
+              </tbody>
+            </table>
+        </div>
+    </section>
+
+   
+
+    <!-- bootstrab -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
